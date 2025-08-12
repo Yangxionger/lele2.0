@@ -1,5 +1,12 @@
-	R0:用于字符串的输入和输出
-	R1,R2,R3:分别存储A、B、C行的石头数
-	R4：用于判断字符和数字是否输入正确，进行计算
-	R5、R6:分别存储输入的字母和数字的ASCII码
-	R7：返回主程序以及参与判断是否胜利的计算
+#include<iostream>
+#include<string>
+using namespace std;
+
+int main(){
+	string s="abcdefg";
+	for(auto &ch:s){
+		cout<<ch;
+	}
+	system("pause");
+	return 0;
+}
